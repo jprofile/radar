@@ -1,1 +1,3 @@
 .techradar/
+node_modules/
+build/
