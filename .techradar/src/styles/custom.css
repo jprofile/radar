@@ -1,0 +1,117 @@
+/* Use this file to optionally override global css styles and use with caution. */
+/* See README.md for hints and examples: https://github.com/AOEpeople/aoe_technology_radar/ */
+/* Importar la fuente Open Sans con los pesos necesarios */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+/* Estilos Base para el Cuerpo (Basado en 'Paragraph Text') */
+body {
+  font-family: 'Open Sans', sans-serif; /* Fuente principal con alternativa genérica */
+  font-weight: 400; /* Regular */
+  font-size: 14px; /* 0.875rem */
+  line-height: 18px; /* 1.125rem */
+  letter-spacing: 0px;
+    color: #000000; /* Color de texto */
+}
+
+/* Estilos para Encabezados (H1-H6) */
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* Light */
+  font-size: 36px; /* 2.25rem */
+  line-height: 48px; /* 3rem */
+  letter-spacing: 0px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 20px; /* 1.25rem */
+  line-height: 24px; /* 1.5rem */
+  letter-spacing: -0.2px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 16px; /* 1rem */
+  line-height: 22px; /* 1.375rem */
+  letter-spacing: 0px;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 14px; /* 0.875rem */
+  line-height: 18px; /* 1.125rem */
+  letter-spacing: -0.2px;
+}
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 12px; /* 0.75rem */
+  line-height: 18px; /* 1.125rem */
+  letter-spacing: 0px;
+}
+
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 14px; /* 0.875rem */
+  line-height: 20px; /* 1.25rem */
+  letter-spacing: 0px;
+}
+
+/* Clases para Otros Tipos de Texto (necesitan aplicarse en el HTML/Componentes) */
+.text-small { /* Para 'Small text' */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 12px; /* 0.75rem */
+  line-height: 18px; /* 1.125rem */
+  letter-spacing: 0px;
+}
+
+.text-xs { /* Para 'XS text' */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 10px; /* 0.625rem */
+  line-height: 14px; /* 0.875rem */
+  letter-spacing: 0px;
+}
+
+.text-label { /* Para 'Label' */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 12px; /* 0.75rem */
+  line-height: 12px; /* 0.75rem */
+  letter-spacing: 0px;
+}
+
+/* Estilo base para enlaces (<a>) */
+a {
+  font-weight: 600; /* Semibold, como Link text */
+    color: #000000; 
+  /* text-decoration: none; */ /* O quitar el subrayado, etc. */
+}
+
+/* Clase específica para 'Link text' */
+.text-link {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 14px; /* 0.875rem */
+  line-height: 18px; /* 1.125rem */
+  letter-spacing: 0px;
+}
+
+/* Clase específica para 'Small link' */
+.text-link-small {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 12px; /* 0.75rem */
+  line-height: 18px; /* 1.125rem */
+  letter-spacing: 0px;
+}
+
+img[class^="Logo_src"] {
+  transform: scale(1.5);
+}
