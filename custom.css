@@ -1,0 +1,82 @@
+/* Fuente principal y ajustes generales */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #61616a; /* Color general del texto */
+}
+
+/* Encabezados con jerarquía de peso y tamaño */
+h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+h4, h5, h6 {
+  font-weight: 600;
+}
+
+/* Enlaces */
+a {
+  font-weight: 600;
+  color: #61616a;
+  text-decoration: none;
+}
+
+/* Logo escalado */
+img[class^="Logo_src"] {
+  transform: scale(1.5);
+}
+
+/* Eliminar tooltip del hover del radar */
+[data-tooltip]::after,
+[data-tooltip]::before {
+  display: none !important;
+  content: none !important;
+}
+
+/* Texto dentro de blips */
+text {
+  font-family: 'Open Sans', sans-serif;
+  fill: #61616a;
+}
+
+/* Cuando el texto se muestra sobre un fondo de color (etiqueta dentro de caja), aplicar fondo azul */
+[class^="Label_label"] {
+  background-color: #00a4e3 !important;
+  color: white !important;
+  border-radius: 4px;
+  padding: 6px 10px;
+  font-weight: 600;
+}
+
+/* Destacar el texto del blip cuando está en hover */
+.blip-hover text {
+  font-weight: bold;
+}
+
+/* Atenuar texto de otros blips si uno está en hover */
+.blip-dim text {
+  opacity: 0.2;
+}
+
+/* También opcionalmente puedes aumentar la separación entre etiquetas en móviles si lo deseas */
+@media (max-width: 768px) {
+  text {
+    font-size: 10px;
+  }
+}
