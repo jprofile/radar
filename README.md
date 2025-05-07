@@ -1,8 +1,8 @@
-# Radar de Tecnologías
+# Technology Radar
 
 Este proyecto es una visualización interactiva tipo **Tech Radar**, basada en el proyecto de [AOE Technology Radar](https://github.com/AOEpeople/aoe_technology_radar), adaptada y personalizada para uso interno.
 
-## ¿Qué es un Radar de Tecnologías?
+## ¿Qué es un Technology Radar?
 
 El radar representa visualmente el estado y madurez de distintas tecnologías, herramientas y prácticas dentro de una organización. Está dividido en:
 
