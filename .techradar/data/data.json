@@ -1,862 +1,90 @@
 {
   "releases": [
-    "2025-04-16"
+    "2017-03-01",
+    "2024-03-01"
   ],
   "tags": [
-    "Error Revisar",
-    "Mutua Madrileña",
-    "ThoughtWorks"
+    "backend",
+    "coding",
+    "frontend",
+    "new"
   ],
   "items": [
     {
-      "id": "AI team assistants",
-      "release": "2025-04-16",
-      "title": "AI team assistants",
-      "ring": "adopt",
-      "quadrant": "methods-and-patterns",
-      "body": "<p>Herramientas de IA enfocadas en mejorar la productividad de equipos completos.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        450,
-        268
-      ]
-    },
-    {
-      "id": "Alexandria",
-      "release": "2025-04-16",
-      "title": "Alexandria",
+      "id": "demo-1",
+      "release": "2017-03-01",
+      "title": "Demo 1",
       "ring": "assess",
-      "quadrant": "platforms-and-operations",
-      "body": "",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "Mutua Madrileña"
-      ],
-      "position": [
-        124,
-        533
-      ]
-    },
-    {
-      "id": "Azure AI Search",
-      "release": "2025-04-16",
-      "title": "Azure AI Search",
-      "ring": "adopt",
-      "quadrant": "platforms-and-operations",
-      "body": "<p>Servicio de búsqueda basado en IA de Microsoft para mejorar la indexación y el descubrimiento de información.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        324,
-        435
-      ]
-    },
-    {
-      "id": "Bruno",
-      "release": "2025-04-16",
-      "title": "Bruno",
-      "ring": "hold",
-      "quadrant": "tools",
-      "body": "<p>Cliente de API que permite probar y depurar APIs de forma eficiente.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        688,
-        653
-      ]
-    },
-    {
-      "id": "Continuous deployment",
-      "release": "2025-04-16",
-      "title": "Continuous deployment",
-      "ring": "adopt",
       "quadrant": "methods-and-patterns",
-      "body": "<p>Automatiza la entrega de código en producción tras superar pruebas automatizadas.</p>\n",
+      "body": "<p>This is a demo entry. It is used to show how a radar item is written in Markdown format. The meta header is used to define the attributes of the item. The content of the file is used as the description of the item.</p>\n<pre><code class=\"hljs language-tsx\"><span class=\"hljs-comment\">// code higlighting works too</span>\n<span class=\"hljs-keyword\">const</span> <span class=\"hljs-keyword\">var</span> = <span class=\"hljs-string\">&#x27;Hello World!&#x27;</span>\n<span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(<span class=\"hljs-keyword\">var</span>)\n</code></pre>",
       "featured": true,
       "flag": "default",
       "tags": [
-        "ThoughtWorks"
+        "coding"
       ],
       "position": [
-        527,
-        278
+        583,
+        139
       ]
     },
     {
-      "id": "Cursor",
-      "release": "2025-04-16",
-      "title": "Cursor",
-      "ring": "trial",
-      "quadrant": "tools",
-      "body": "<p>Editor de código basado en IA que optimiza la productividad en desarrollo de software.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        503,
-        621
-      ]
-    },
-    {
-      "id": "Databricks Asset Bundles",
-      "release": "2025-04-16",
-      "title": "Databricks Asset Bundles",
-      "ring": "hold",
-      "quadrant": "languages-and-frameworks",
-      "body": "<p>Solución para empaquetar y desplegar activos de datos en Databricks.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        48,
-        321
-      ]
-    },
-    {
-      "id": "Databricks Delta Live Tables",
-      "release": "2025-04-16",
-      "title": "Databricks Delta Live Tables",
+      "id": "demo-2",
+      "release": "2024-03-01",
+      "title": "Demo 2",
       "ring": "adopt",
       "quadrant": "platforms-and-operations",
-      "body": "<p>Solución de procesamiento de datos en tiempo real sobre Databricks para automatizar pipelines de datos.</p>\n",
+      "body": "<p>This is a revision of the 2nd demo item. It moved from trail to adopt.</p>\n",
       "featured": true,
-      "flag": "default",
+      "flag": "changed",
       "tags": [
-        "ThoughtWorks"
+        "coding",
+        "backend"
+      ],
+      "revisions": [
+        {
+          "release": "2017-03-01",
+          "ring": "trial",
+          "body": "<p>This is a demo entry. It is used to show how a radar item is written in Markdown format. The meta header is used to define the attributes of the item. The content of the file is used as the description of the item.</p>\n"
+        }
       ],
       "position": [
-        345,
-        458
-      ]
-    },
-    {
-      "id": "Databricks Unity Catalog",
-      "release": "2025-04-16",
-      "title": "Databricks Unity Catalog",
-      "ring": "adopt",
-      "quadrant": "platforms-and-operations",
-      "body": "<p>Catálogo unificado para gestionar datos, metadatos y permisos en Databricks.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        337,
-        566
-      ]
-    },
-    {
-      "id": "dbldatagen",
-      "release": "2025-04-16",
-      "title": "dbldatagen",
-      "ring": "hold",
-      "quadrant": "languages-and-frameworks",
-      "body": "<p>Herramienta para generar datos sintéticos con compatibilidad para Spark y bases de datos analíticas.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        265,
-        54
-      ]
-    },
-    {
-      "id": "dbt",
-      "release": "2025-04-16",
-      "title": "dbt",
-      "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
-      "body": "<p>Framework para transformación de datos en SQL que permite modularidad y versionado en pipelines de datos.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        275,
-        303
-      ]
-    },
-    {
-      "id": "DeepEval",
-      "release": "2025-04-16",
-      "title": "DeepEval",
-      "ring": "hold",
-      "quadrant": "languages-and-frameworks",
-      "body": "<p>Marco para evaluar modelos de aprendizaje profundo con métricas avanzadas de rendimiento.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        77,
-        207
-      ]
-    },
-    {
-      "id": "Devbox",
-      "release": "2025-04-16",
-      "title": "Devbox",
-      "ring": "hold",
-      "quadrant": "tools",
-      "body": "<p>Herramienta para gestionar entornos de desarrollo de manera reproducible.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        773,
-        491
-      ]
-    },
-    {
-      "id": "Dynamic few-shot prompting",
-      "release": "2025-04-16",
-      "title": "Dynamic few-shot prompting",
-      "ring": "adopt",
-      "quadrant": "methods-and-patterns",
-      "body": "<p>Técnica para mejorar respuestas de IA con un número mínimo de ejemplos.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        422,
-        340
-      ]
-    },
-    {
-      "id": "FastChat",
-      "release": "2025-04-16",
-      "title": "FastChat",
-      "ring": "assess",
-      "quadrant": "platforms-and-operations",
-      "body": "<p>Framework de código abierto para construir chatbots basados en IA de manera eficiente.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        224,
-        639
-      ]
-    },
-    {
-      "id": "Fine-tuning embedding models",
-      "release": "2025-04-16",
-      "title": "Fine-tuning embedding models",
-      "ring": "adopt",
-      "quadrant": "methods-and-patterns",
-      "body": "<p>Ajusta representaciones vectoriales en IA para mejorar la recuperación de información.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        447,
-        225
-      ]
-    },
-    {
-      "id": "Function calling with LLMs",
-      "release": "2025-04-16",
-      "title": "Function calling with LLMs",
-      "ring": "adopt",
-      "quadrant": "methods-and-patterns",
-      "body": "",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        532,
-        339
-      ]
-    },
-    {
-      "id": "GCP Vertex AI Agent Builder",
-      "release": "2025-04-16",
-      "title": "GCP Vertex AI Agent Builder",
-      "ring": "adopt",
-      "quadrant": "platforms-and-operations",
-      "body": "<p>Herramienta para crear agentes de IA personalizados en la plataforma de Google Cloud.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        350,
+        263,
         514
       ]
     },
     {
-      "id": "Gemini Code Assist",
-      "release": "2025-04-16",
-      "title": "Gemini Code Assist",
-      "ring": "assess",
-      "quadrant": "tools",
-      "body": "",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "Mutua Madrileña"
-      ],
-      "position": [
-        667,
-        584
-      ]
-    },
-    {
-      "id": "Github Copilot",
-      "release": "2025-04-16",
-      "title": "Github Copilot",
-      "ring": "assess",
-      "quadrant": "tools",
-      "body": "",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "Mutua Madrileña"
-      ],
-      "position": [
-        714,
-        460
-      ]
-    },
-    {
-      "id": "Google Agent Space",
-      "release": "2025-04-16",
-      "title": "Google Agent Space",
-      "ring": "assess",
-      "quadrant": "platforms-and-operations",
-      "body": "",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "Mutua Madrileña"
-      ],
-      "position": [
-        253,
-        675
-      ]
-    },
-    {
-      "id": "IBM Agents",
-      "release": "2025-04-16",
-      "title": "IBM Agents",
-      "ring": "assess",
-      "quadrant": "tools",
-      "body": "",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "Mutua Madrileña"
-      ],
-      "position": [
-        597,
-        658
-      ]
-    },
-    {
-      "id": "IBM Product Builder",
-      "release": "2025-04-16",
-      "title": "IBM Product Builder",
-      "ring": "assess",
-      "quadrant": "tools",
-      "body": "",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "Mutua Madrileña"
-      ],
-      "position": [
-        534,
-        669
-      ]
-    },
-    {
-      "id": "ITMS ServiceNow",
-      "release": "2025-04-16",
-      "title": "ITMS ServiceNow",
-      "ring": "assess",
-      "quadrant": "platforms-and-operations",
-      "body": "<p>Plataforma potenciada por IA Generativa para la resolución de incidentes, peticiones, cambios y gestión documental</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "Mutua Madrileña"
-      ],
-      "position": [
-        86,
-        458
-      ]
-    },
-    {
-      "id": "ITOM Servicenow",
-      "release": "2025-04-16",
-      "title": "ITOM Servicenow",
-      "ring": "assess",
-      "quadrant": "platforms-and-operations",
-      "body": "",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "Mutua Madrileña"
-      ],
-      "position": [
-        122,
-        559
-      ]
-    },
-    {
-      "id": "JetBrains AI Assistant",
-      "release": "2025-04-16",
-      "title": "JetBrains AI Assistant",
-      "ring": "adopt",
-      "quadrant": "tools",
-      "body": "<p>Asistente de inteligencia artificial integrado en los IDEs de JetBrains.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        451,
-        469
-      ]
-    },
-    {
-      "id": "kotaemon",
-      "release": "2025-04-16",
-      "title": "kotaemon",
+      "id": "demo-3",
+      "release": "2017-03-01",
+      "title": "Demo 3",
       "ring": "hold",
-      "quadrant": "languages-and-frameworks",
-      "body": "<p>Plataforma basada en RAG para construir aplicaciones de preguntas y respuestas con documentación técnica.</p>\n",
+      "quadrant": "tools",
+      "body": "<p>This is a demo entry. It is used to show how a radar item is written in Markdown format. The meta header is used to define the attributes of the item. The content of the file is used as the description of the item.</p>\n",
       "featured": true,
       "flag": "default",
       "tags": [
-        "ThoughtWorks"
+        "coding",
+        "frontend"
       ],
       "position": [
-        302,
-        30
+        744,
+        540
       ]
     },
     {
-      "id": "Langfuse",
-      "release": "2025-04-16",
-      "title": "Langfuse",
-      "ring": "assess",
-      "quadrant": "platforms-and-operations",
-      "body": "<p>Plataforma para rastrear, depurar y mejorar modelos de lenguaje en producción.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        342,
-        706
-      ]
-    },
-    {
-      "id": "LlamaIndex",
-      "release": "2025-04-16",
-      "title": "LlamaIndex",
-      "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
-      "body": "<p>Biblioteca para gestionar y consultar documentos con modelos de lenguaje grande (LLMs).</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        369,
-        272
-      ]
-    },
-    {
-      "id": "LLM as a judge",
-      "release": "2025-04-16",
-      "title": "LLM as a judge",
-      "ring": "adopt",
-      "quadrant": "methods-and-patterns",
-      "body": "<p>Usa IA para evaluar la calidad de respuestas generadas por otros sistemas de IA.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        420,
-        302
-      ]
-    },
-    {
-      "id": "LLM Guardrails",
-      "release": "2025-04-16",
-      "title": "LLM Guardrails",
+      "id": "demo-4",
+      "release": "2024-03-01",
+      "title": "Demo 4",
       "ring": "trial",
       "quadrant": "languages-and-frameworks",
-      "body": "<p>Herramienta para controlar y mejorar la seguridad de las respuestas generadas por IA.</p>\n",
+      "body": "<p>This is a new demo entry. Items can <a href=\"/methods-and-patterns/demo-1/\">link</a> to other items and replaces the old links with a html extension to the new link structure, whereas a new <a href=\"/methods-and-patterns/demo-1/\">link</a> should be untouched.</p>\n",
       "featured": true,
-      "flag": "default",
+      "flag": "new",
       "tags": [
-        "ThoughtWorks"
+        "new"
       ],
       "position": [
-        263,
-        192
-      ]
-    },
-    {
-      "id": "LLMLingua",
-      "release": "2025-04-16",
-      "title": "LLMLingua",
-      "ring": "assess",
-      "quadrant": "languages-and-frameworks",
-      "body": "<p>Optimizador de tokens para modelos de lenguaje que mejora la eficiencia en procesamiento y memoria.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        206,
-        156
-      ]
-    },
-    {
-      "id": "Microsoft Autogen",
-      "release": "2025-04-16",
-      "title": "Microsoft Autogen",
-      "ring": "assess",
-      "quadrant": "languages-and-frameworks",
-      "body": "<p>Plataforma de automatización basada en IA para generar código y flujos de trabajo en entornos empresariales.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        169,
-        199
-      ]
-    },
-    {
-      "id": "pgvector",
-      "release": "2025-04-16",
-      "title": "pgvector",
-      "ring": "adopt",
-      "quadrant": "tools",
-      "body": "<p>Extensión para PostgreSQL que permite búsquedas vectoriales eficientes.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        548,
-        509
-      ]
-    },
-    {
-      "id": "PRISMs",
-      "release": "2025-04-16",
-      "title": "PRISMs",
-      "ring": "assess",
-      "quadrant": "tools",
-      "body": "",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "Mutua Madrileña",
-        "Error Revisar"
-      ],
-      "position": [
-        621,
-        624
-      ]
-    },
-    {
-      "id": "Qdrant",
-      "release": "2025-04-16",
-      "title": "Qdrant",
-      "ring": "hold",
-      "quadrant": "platforms-and-operations",
-      "body": "<p>Motor de búsqueda de vectores basado en Rust optimizado para IA y machine learning.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        59,
-        558
-      ]
-    },
-    {
-      "id": "Ragas",
-      "release": "2025-04-16",
-      "title": "Ragas",
-      "ring": "hold",
-      "quadrant": "languages-and-frameworks",
-      "body": "<p>Herramienta para mejorar la generación aumentada por recuperación (RAG) en modelos de IA.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        64,
-        284
-      ]
-    },
-    {
-      "id": "Retrieval-augmented generation (RAG)",
-      "release": "2025-04-16",
-      "title": "Retrieval-augmented generation (RAG)",
-      "ring": "adopt",
-      "quadrant": "methods-and-patterns",
-      "body": "<p>Optimiza respuestas de IA combinando generación de texto con recuperación de datos externos.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        505,
-        302
-      ]
-    },
-    {
-      "id": "Semantic Router",
-      "release": "2025-04-16",
-      "title": "Semantic Router",
-      "ring": "hold",
-      "quadrant": "tools",
-      "body": "<p>Framework de enrutamiento para aplicaciones de inteligencia artificial.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        555,
-        749
-      ]
-    },
-    {
-      "id": "Small language models",
-      "release": "2025-04-16",
-      "title": "Small language models",
-      "ring": "trial",
-      "quadrant": "methods-and-patterns",
-      "body": "<p>IA más eficientes en costo y tamaño, con menos requisitos computacionales.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        553,
-        198
-      ]
-    },
-    {
-      "id": "Software engineering agents",
-      "release": "2025-04-16",
-      "title": "Software engineering agents",
-      "ring": "assess",
-      "quadrant": "tools",
-      "body": "<p>Herramienta basada en IA para mejorar el desarrollo de software. EL PDF da el link a un bechmark y a distintas herramientas en version beta</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        691,
-        518
-      ]
-    },
-    {
-      "id": "Structured output from LLMs",
-      "release": "2025-04-16",
-      "title": "Structured output from LLMs",
-      "ring": "adopt",
-      "quadrant": "methods-and-patterns",
-      "body": "<p>Permite a los modelos de IA generar respuestas en formatos organizados como JSON.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        432,
-        375
-      ]
-    },
-    {
-      "id": "TypeScript OpenAPI",
-      "release": "2025-04-16",
-      "title": "TypeScript OpenAPI",
-      "ring": "hold",
-      "quadrant": "tools",
-      "body": "<p>Herramienta para generar definiciones OpenAPI a partir de código TypeScript.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        478,
-        769
-      ]
-    },
-    {
-      "id": "Using GenAI to understand legacy codebases",
-      "release": "2025-04-16",
-      "title": "Using GenAI to understand legacy codebases",
-      "ring": "trial",
-      "quadrant": "methods-and-patterns",
-      "body": "<p>Usa IA generativa para analizar y modernizar bases de código antiguas.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        622,
-        293
-      ]
-    },
-    {
-      "id": "uv",
-      "release": "2025-04-16",
-      "title": "uv",
-      "ring": "hold",
-      "quadrant": "tools",
-      "body": "<p>Gestor de paquetes ultrarrápido para Python escrito en Rust.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        708,
-        619
-      ]
-    },
-    {
-      "id": "vLLM",
-      "release": "2025-04-16",
-      "title": "vLLM",
-      "ring": "trial",
-      "quadrant": "languages-and-frameworks",
-      "body": "<p>Optimizador de inferencia de modelos de lenguaje que mejora la velocidad y eficiencia de ejecución.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        293,
-        171
-      ]
-    },
-    {
-      "id": "Warp",
-      "release": "2025-04-16",
-      "title": "Warp",
-      "ring": "hold",
-      "quadrant": "tools",
-      "body": "<p>Terminal inteligente con funcionalidades avanzadas de IA.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        530,
-        762
-      ]
-    },
-    {
-      "id": "Watson code for java",
-      "release": "2025-04-16",
-      "title": "Watson code for java",
-      "ring": "assess",
-      "quadrant": "tools",
-      "body": "",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "Mutua Madrileña"
-      ],
-      "position": [
-        647,
-        587
-      ]
-    },
-    {
-      "id": "Wiz",
-      "release": "2025-04-16",
-      "title": "Wiz",
-      "ring": "hold",
-      "quadrant": "tools",
-      "body": "<p>Plataforma de seguridad en la nube que detecta vulnerabilidades y configuraciones erróneas.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        537,
-        730
-      ]
-    },
-    {
-      "id": "Zed",
-      "release": "2025-04-16",
-      "title": "Zed",
-      "ring": "trial",
-      "quadrant": "tools",
-      "body": "<p>Editor de código colaborativo en tiempo real con alta velocidad.</p>\n",
-      "featured": true,
-      "flag": "default",
-      "tags": [
-        "ThoughtWorks"
-      ],
-      "position": [
-        628,
-        517
+        161,
+        306
       ]
     }
   ]

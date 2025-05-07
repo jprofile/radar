@@ -1,15 +1,17 @@
-/* Fuente principal y ajustes generales */
+/* Defino Open Sans como la fuente base del proyecto, con los pesos necesarios para jerarquías tipográficas */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
+/* Configuración base para el texto general del radar: tamaño, interlineado y color corporativo gris oscuro */
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: #61616a; /* Color general del texto */
+  color: #61616a;
+  background-color: white;
 }
 
-/* Encabezados con jerarquía de peso y tamaño */
+/* Encabezados con jerarquía visual clara y consistente */
 h1 {
   font-weight: 700;
   font-size: 36px;
@@ -30,32 +32,44 @@ h4, h5, h6 {
   font-weight: 600;
 }
 
-/* Enlaces */
+/* Enlaces sin subrayado, manteniendo el mismo color gris para coherencia visual */
 a {
   font-weight: 600;
   color: #61616a;
   text-decoration: none;
 }
 
-/* Logo escalado */
+/* Ajusto el tamaño del logo para mayor presencia visual en la cabecera */
 img[class^="Logo_src"] {
   transform: scale(1.5);
 }
 
-/* Eliminar tooltip del hover del radar */
+/* Elimino completamente los tooltips por defecto sobre los blips para evitar redundancia visual */
 [data-tooltip]::after,
 [data-tooltip]::before {
   display: none !important;
   content: none !important;
 }
 
-/* Texto dentro de blips */
+/* Estilo global para los textos renderizados como elementos SVG en el radar */
 text {
   font-family: 'Open Sans', sans-serif;
   fill: #61616a;
 }
 
-/* Cuando el texto se muestra sobre un fondo de color (etiqueta dentro de caja), aplicar fondo azul */
+/* Cuadrantes con fondo en color primario: 2 y 3 */
+[data-quadrant="2"], [data-quadrant="3"] {
+  background-color: #00a4e3;
+  color: white;
+}
+
+/* Cuadrantes 1 y 4 utilizan el color secundario para evitar solapamientos visuales */
+[data-quadrant="1"], [data-quadrant="4"] {
+  background-color: #0068a3;
+  color: white;
+}
+
+/* Estilo aplicado a etiquetas dentro de contenedores coloreados (ej. descripción del cuadrante) */
 [class^="Label_label"] {
   background-color: #00a4e3 !important;
   color: white !important;
@@ -64,19 +78,12 @@ text {
   font-weight: 600;
 }
 
-/* Destacar el texto del blip cuando está en hover */
+/* Resalto el texto del blip activo al pasar el ratón por encima */
 .blip-hover text {
   font-weight: bold;
 }
 
-/* Atenuar texto de otros blips si uno está en hover */
+/* Atenúo el resto de blips para centrar la atención en el que está en foco */
 .blip-dim text {
   opacity: 0.2;
-}
-
-/* También opcionalmente puedes aumentar la separación entre etiquetas en móviles si lo deseas */
-@media (max-width: 768px) {
-  text {
-    font-size: 10px;
-  }
 }

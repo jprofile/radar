@@ -58,7 +58,7 @@ export const Chart: FC<ChartProps> = ({
     const cy = position === 1 || position === 2 ? 1 : 0;
     const x = position === 1 || position === 3 ? 0 : center;
     const y = position === 1 || position === 2 ? 0 : center;
-
+    // Elimino el sombreado de fondo del cuadrante para dejarlo completamente blanco
     return (
       <>
         <defs>
@@ -67,13 +67,7 @@ export const Chart: FC<ChartProps> = ({
             <stop offset="100%" stopColor={color} stopOpacity={0}></stop>
           </radialGradient>
         </defs>
-        <rect
-          width={center}
-          height={center}
-          x={x}
-          y={y}
-          fill={`url(#${gradientId})`}
-        />
+        {/* <rect width={center} height={center} x={x} y={y} fill={`url(#${gradientId})`} /> */} 
       </>
     );
   };
