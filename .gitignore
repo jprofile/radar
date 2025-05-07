@@ -1,10 +1,16 @@
 # Dependencias
 node_modules/
 
-# Salida de compilación
-build/
+# Salida de compilación de Next.js y exportaciones estáticas
 .next/
+out/
 .techradar/.next/
+.techradar/out/
+.techradar/hash/
+
+# Archivos generados automáticamente
+data/data.json
+data/about.json
 
 # Archivos de logs
 npm-debug.log*

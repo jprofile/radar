@@ -21,7 +21,7 @@ El radar representa visualmente el estado y madurez de distintas tecnologías, h
 ```bash
 cd .techradar
 npm run build
-npm run start
+npm run dev
 ```
 
 Esto compila y sirve la versión optimizada del radar.  Asegurarnos de estar en .techradar para lanzar el npm

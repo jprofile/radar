@@ -194,12 +194,11 @@ function postProcessItems(items: Item[]): {
       return false;
     }
 
-    // check if config has a key `tags` and if it is an array
-    if (Array.isArray(tags) && tags.length) {
-      // if tags are specified, only keep items that have at least one of the tags
+    // No filtramos por tags si no están definidos en config.json
+    if (Array.isArray(tags) && tags.length > 0) {
       return item.tags?.some((tag) => tags.includes(tag));
     }
-
+    
     return true;
   });
 
