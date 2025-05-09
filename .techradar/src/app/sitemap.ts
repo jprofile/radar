@@ -34,6 +34,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       priority: 0.9,
     },
+    {
+      url: getAbsoluteUrl('/admin'),
+      lastModified: new Date(),
+      priority: 0.9,
+    },
     ...quadrants,
     ...items,
   ];

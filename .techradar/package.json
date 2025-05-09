@@ -20,7 +20,8 @@
     "@commitlint/cli": "^19.8.0",
     "@commitlint/config-conventional": "^19.8.0",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
-    "@types/node": "^22",
+    "@types/formidable": "^3.4.5",
+    "@types/node": "^22.15.17",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "clsx": "^2.1.1",
@@ -39,10 +40,17 @@
     "prettier": "^3.5.3",
     "react": "^19",
     "react-dom": "^19",
+    "ts-node": "^10.9.2",
     "tsx": "^4.19.3",
-    "typescript": "^5"
+    "typescript": "^5.8.3"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "csv-parse": "^5.6.0",
+    "dayjs": "^1.11.13",
+    "formidable": "^3.5.4",
+    "simple-git": "^3.27.0"
   }
 }
