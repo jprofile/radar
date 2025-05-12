@@ -11,6 +11,9 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true,
   },
+  images: {
+    unoptimized: true, // ← añado esto porque usamos export y no tenemos servidor
+  },
 };
 
 module.exports = nextConfig;

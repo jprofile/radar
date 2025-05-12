@@ -1,0 +1,17 @@
+/* Quiero que el botón se quede fijo arriba a la izquierda, sin molestar */
+.backButton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.backButton img {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
