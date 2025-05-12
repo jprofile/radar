@@ -1,7 +1,7 @@
-/* Defino Open Sans como la fuente base del proyecto, con los pesos necesarios para jerarquías tipográficas */
+/* Fuente principal del proyecto */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
-/* Configuración base para el texto general del radar: tamaño, interlineado y color corporativo gris oscuro */
+/* Ajustes base: fuente, tamaño y color general */
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -11,7 +11,7 @@ body {
   background-color: white;
 }
 
-/* Encabezados con jerarquía visual clara y consistente */
+/* Jerarquía tipográfica */
 h1 {
   font-weight: 700;
   font-size: 36px;
@@ -32,58 +32,63 @@ h4, h5, h6 {
   font-weight: 600;
 }
 
-/* Enlaces sin subrayado, manteniendo el mismo color gris para coherencia visual */
+/* Enlaces estilo texto: gris oscuro, sin subrayado */
 a {
   font-weight: 600;
   color: #61616a;
   text-decoration: none;
 }
 
-/* Ajusto el tamaño del logo para mayor presencia visual en la cabecera */
+/* Escalo el logo en la cabecera para que se vea bien */
 img[class^="Logo_src"] {
   transform: scale(1.5);
 }
 
-/* Elimino completamente los tooltips por defecto sobre los blips para evitar redundancia visual */
+/* Elimino los tooltips para que no molesten en el radar */
 [data-tooltip]::after,
 [data-tooltip]::before {
   display: none !important;
   content: none !important;
 }
 
-/* Estilo global para los textos renderizados como elementos SVG en el radar */
+/* Estilo general de texto dentro del SVG del radar */
 text {
   font-family: 'Open Sans', sans-serif;
   fill: #61616a;
 }
 
-/* Cuadrantes con fondo en color primario: 2 y 3 */
+/* Fondo de cuadrantes 2 y 3 con color principal */
 [data-quadrant="2"], [data-quadrant="3"] {
   background-color: #00a4e3;
   color: white;
 }
 
-/* Cuadrantes 1 y 4 utilizan el color secundario para evitar solapamientos visuales */
+/* Fondo de cuadrantes 1 y 4 con color secundario */
 [data-quadrant="1"], [data-quadrant="4"] {
   background-color: #0068a3;
   color: white;
 }
 
-/* Estilo aplicado a etiquetas dentro de contenedores coloreados (ej. descripción del cuadrante) */
+/* Estilo visual para las cajas de descripción de cuadrantes */
 [class^="Label_label"] {
-  background-color: #00a4e3 !important;
-  color: white !important;
-  border-radius: 4px;
-  padding: 6px 10px;
+  background: linear-gradient(
+    to bottom right,
+    var(--quadrant-color),
+    rgba(255, 255, 255, 0.2)
+  ) !important;
+  color: #61616a !important;
+  border-radius: 8px;
+  padding: 10px 16px;
   font-weight: 600;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Resalto el texto del blip activo al pasar el ratón por encima */
+/* Destaco el texto del blip activo */
 .blip-hover text {
   font-weight: bold;
 }
 
-/* Atenúo el resto de blips para centrar la atención en el que está en foco */
+/* Atenúo los blips no activos */
 .blip-dim text {
   opacity: 0.2;
 }
