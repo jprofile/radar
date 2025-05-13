@@ -1,0 +1,26 @@
+{
+  "name": "radar-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/functions/upload.js",
+  "scripts": {
+    "start": "func start",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "busboy": "^1.6.0",
+    "csv-parse": "^5.6.0",
+    "dayjs": "^1.11.13",
+    "formidable": "^3.5.4",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "azure-functions-core-tools": "^4.x",
+    "typescript": "^5.8.3"
+  }
+}
