@@ -5,6 +5,7 @@ const basePath =
 /** @type {import("next").NextConfig} */
 const nextConfig = {
   basePath,
+  output: 'export',
   trailingSlash: true,
   reactStrictMode: true,
   experimental: {
