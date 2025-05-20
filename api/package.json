@@ -2,7 +2,7 @@
   "name": "radar-api",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/functions/upload.js",
+  "main": "dist/functions/index.js",
   "scripts": {
     "start": "func start",
     "build": "tsc",
