@@ -1,7 +1,8 @@
 {
   "releases": [
     "2025-04-16",
-    "2025-05-09"
+    "2025-05-09",
+    "2025-05-19"
   ],
   "tags": [
     "Error Revisar",
@@ -11,7 +12,7 @@
   "items": [
     {
       "id": "AI team assistants",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "AI team assistants",
       "ring": "adopt",
       "quadrant": "methods-and-patterns",
@@ -22,13 +23,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        476,
-        302
+        473,
+        367
       ]
     },
     {
       "id": "Alexandria",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Alexandria",
       "ring": "assess",
       "quadrant": "platforms-and-operations",
@@ -39,8 +40,8 @@
         "Mutua Madrileña"
       ],
       "position": [
-        332,
-        694
+        121,
+        566
       ]
     },
     {
@@ -56,13 +57,13 @@
         "Mutua Madrileña"
       ],
       "position": [
-        181,
-        609
+        114,
+        537
       ]
     },
     {
       "id": "Azure AI Search",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Azure AI Search",
       "ring": "adopt",
       "quadrant": "platforms-and-operations",
@@ -73,13 +74,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        301,
-        457
+        240,
+        478
       ]
     },
     {
       "id": "Bruno",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Bruno",
       "ring": "hold",
       "quadrant": "tools",
@@ -90,13 +91,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        493,
-        773
+        481,
+        776
       ]
     },
     {
       "id": "Continuous deployment",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Continuous deployment",
       "ring": "adopt",
       "quadrant": "methods-and-patterns",
@@ -107,13 +108,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        439,
-        233
+        475,
+        314
       ]
     },
     {
       "id": "Cursor",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Cursor",
       "ring": "trial",
       "quadrant": "tools",
@@ -124,13 +125,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        628,
-        446
+        612,
+        533
       ]
     },
     {
       "id": "Databricks Asset Bundles",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Databricks Asset Bundles",
       "ring": "hold",
       "quadrant": "languages-and-frameworks",
@@ -141,13 +142,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        282,
-        54
+        146,
+        129
       ]
     },
     {
       "id": "Databricks Delta Live Tables",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Databricks Delta Live Tables",
       "ring": "adopt",
       "quadrant": "platforms-and-operations",
@@ -158,13 +159,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        378,
-        488
+        341,
+        448
       ]
     },
     {
       "id": "Databricks Unity Catalog",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Databricks Unity Catalog",
       "ring": "adopt",
       "quadrant": "platforms-and-operations",
@@ -175,13 +176,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        359,
-        472
+        279,
+        466
       ]
     },
     {
       "id": "dbldatagen",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "dbldatagen",
       "ring": "hold",
       "quadrant": "languages-and-frameworks",
@@ -192,13 +193,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        31,
-        334
+        48,
+        280
       ]
     },
     {
       "id": "dbt",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "dbt",
       "ring": "adopt",
       "quadrant": "languages-and-frameworks",
@@ -209,13 +210,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        337,
-        241
+        238,
+        337
       ]
     },
     {
       "id": "DeepEval",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "DeepEval",
       "ring": "hold",
       "quadrant": "languages-and-frameworks",
@@ -226,13 +227,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        37,
-        281
+        226,
+        61
       ]
     },
     {
       "id": "Devbox",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Devbox",
       "ring": "hold",
       "quadrant": "tools",
@@ -243,13 +244,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        745,
-        545
+        588,
+        719
       ]
     },
     {
       "id": "Dynamic few-shot prompting",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Dynamic few-shot prompting",
       "ring": "adopt",
       "quadrant": "methods-and-patterns",
@@ -260,13 +261,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        497,
-        271
+        430,
+        326
       ]
     },
     {
       "id": "FastChat",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "FastChat",
       "ring": "assess",
       "quadrant": "platforms-and-operations",
@@ -277,13 +278,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        245,
-        663
+        154,
+        600
       ]
     },
     {
       "id": "Fine-tuning embedding models",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Fine-tuning embedding models",
       "ring": "adopt",
       "quadrant": "methods-and-patterns",
@@ -294,13 +295,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        449,
-        298
+        541,
+        310
       ]
     },
     {
       "id": "Function calling with LLMs",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Function calling with LLMs",
       "ring": "adopt",
       "quadrant": "methods-and-patterns",
@@ -311,13 +312,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        459,
-        225
+        438,
+        234
       ]
     },
     {
       "id": "GCP Vertex AI Agent Builder",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "GCP Vertex AI Agent Builder",
       "ring": "adopt",
       "quadrant": "platforms-and-operations",
@@ -328,13 +329,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        275,
-        461
+        309,
+        440
       ]
     },
     {
       "id": "Gemini Code Assist",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Gemini Code Assist",
       "ring": "assess",
       "quadrant": "tools",
@@ -345,13 +346,13 @@
         "Mutua Madrileña"
       ],
       "position": [
-        537,
-        682
+        682,
+        547
       ]
     },
     {
       "id": "Github Copilot",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Github Copilot",
       "ring": "assess",
       "quadrant": "tools",
@@ -362,13 +363,13 @@
         "Mutua Madrileña"
       ],
       "position": [
-        674,
-        543
+        707,
+        469
       ]
     },
     {
       "id": "Google Agent Space",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Google Agent Space",
       "ring": "assess",
       "quadrant": "platforms-and-operations",
@@ -379,13 +380,13 @@
         "Mutua Madrileña"
       ],
       "position": [
-        111,
-        521
+        204,
+        655
       ]
     },
     {
       "id": "IBM Agents",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "IBM Agents",
       "ring": "assess",
       "quadrant": "tools",
@@ -396,13 +397,13 @@
         "Mutua Madrileña"
       ],
       "position": [
-        658,
-        558
+        555,
+        671
       ]
     },
     {
       "id": "IBM Product Builder",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "IBM Product Builder",
       "ring": "assess",
       "quadrant": "tools",
@@ -413,13 +414,13 @@
         "Mutua Madrileña"
       ],
       "position": [
-        623,
-        634
+        485,
+        697
       ]
     },
     {
       "id": "ITMS ServiceNow",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "ITMS ServiceNow",
       "ring": "assess",
       "quadrant": "platforms-and-operations",
@@ -430,13 +431,13 @@
         "Mutua Madrileña"
       ],
       "position": [
-        311,
-        709
+        236,
+        681
       ]
     },
     {
       "id": "ITOM Servicenow",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "ITOM Servicenow",
       "ring": "assess",
       "quadrant": "platforms-and-operations",
@@ -447,13 +448,13 @@
         "Mutua Madrileña"
       ],
       "position": [
-        162,
-        595
+        135,
+        545
       ]
     },
     {
       "id": "JetBrains AI Assistant",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "JetBrains AI Assistant",
       "ring": "adopt",
       "quadrant": "tools",
@@ -464,13 +465,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        558,
-        449
+        528,
+        460
       ]
     },
     {
       "id": "kotaemon",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "kotaemon",
       "ring": "hold",
       "quadrant": "languages-and-frameworks",
@@ -481,13 +482,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        69,
-        222
+        261,
+        52
       ]
     },
     {
       "id": "Langfuse",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Langfuse",
       "ring": "assess",
       "quadrant": "platforms-and-operations",
@@ -498,13 +499,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        117,
-        544
+        300,
+        707
       ]
     },
     {
       "id": "LlamaIndex",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "LlamaIndex",
       "ring": "adopt",
       "quadrant": "languages-and-frameworks",
@@ -515,13 +516,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        369,
-        364
+        372,
+        324
       ]
     },
     {
       "id": "LLM as a judge",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "LLM as a judge",
       "ring": "adopt",
       "quadrant": "methods-and-patterns",
@@ -532,13 +533,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        480,
-        352
+        467,
+        287
       ]
     },
     {
       "id": "LLM Guardrails",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "LLM Guardrails",
       "ring": "trial",
       "quadrant": "languages-and-frameworks",
@@ -549,13 +550,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        309,
-        193
+        333,
+        176
       ]
     },
     {
       "id": "LLMLingua",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "LLMLingua",
       "ring": "assess",
       "quadrant": "languages-and-frameworks",
@@ -566,13 +567,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        251,
-        114
+        326,
+        103
       ]
     },
     {
       "id": "Microsoft Autogen",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Microsoft Autogen",
       "ring": "assess",
       "quadrant": "languages-and-frameworks",
@@ -583,13 +584,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        141,
-        231
+        184,
+        178
       ]
     },
     {
       "id": "pgvector",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "pgvector",
       "ring": "adopt",
       "quadrant": "tools",
@@ -600,13 +601,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        453,
-        527
+        457,
+        531
       ]
     },
     {
       "id": "PRISMs",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "PRISMs",
       "ring": "assess",
       "quadrant": "tools",
@@ -618,13 +619,13 @@
         "Error Revisar"
       ],
       "position": [
-        698,
-        469
+        577,
+        659
       ]
     },
     {
       "id": "Qdrant",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Qdrant",
       "ring": "hold",
       "quadrant": "platforms-and-operations",
@@ -635,13 +636,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        203,
-        719
+        78,
+        600
       ]
     },
     {
       "id": "Ragas",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Ragas",
       "ring": "hold",
       "quadrant": "languages-and-frameworks",
@@ -652,13 +653,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        122,
-        147
+        187,
+        106
       ]
     },
     {
       "id": "Retrieval-augmented generation (RAG)",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Retrieval-augmented generation (RAG)",
       "ring": "adopt",
       "quadrant": "methods-and-patterns",
@@ -669,13 +670,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        435,
-        267
+        505,
+        350
       ]
     },
     {
       "id": "Semantic Router",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Semantic Router",
       "ring": "hold",
       "quadrant": "tools",
@@ -686,13 +687,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        733,
-        573
+        764,
+        509
       ]
     },
     {
       "id": "Small language models",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Small language models",
       "ring": "trial",
       "quadrant": "methods-and-patterns",
@@ -703,13 +704,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        498,
-        169
+        491,
+        178
       ]
     },
     {
       "id": "Software engineering agents",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Software engineering agents",
       "ring": "assess",
       "quadrant": "tools",
@@ -720,13 +721,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        678,
-        506
+        635,
+        622
       ]
     },
     {
       "id": "Structured output from LLMs",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Structured output from LLMs",
       "ring": "adopt",
       "quadrant": "methods-and-patterns",
@@ -737,13 +738,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        426,
-        311
+        559,
+        341
       ]
     },
     {
       "id": "TypeScript OpenAPI",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "TypeScript OpenAPI",
       "ring": "hold",
       "quadrant": "tools",
@@ -754,13 +755,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        763,
-        526
+        522,
+        742
       ]
     },
     {
       "id": "Using GenAI to understand legacy codebases",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Using GenAI to understand legacy codebases",
       "ring": "trial",
       "quadrant": "methods-and-patterns",
@@ -771,13 +772,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        583,
+        573,
         230
       ]
     },
     {
       "id": "uv",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "uv",
       "ring": "hold",
       "quadrant": "tools",
@@ -788,13 +789,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        631,
-        678
+        693,
+        624
       ]
     },
     {
       "id": "vLLM",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "vLLM",
       "ring": "trial",
       "quadrant": "languages-and-frameworks",
@@ -805,13 +806,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        181,
-        313
+        296,
+        202
       ]
     },
     {
       "id": "Warp",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Warp",
       "ring": "hold",
       "quadrant": "tools",
@@ -822,13 +823,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        718,
-        587
+        499,
+        751
       ]
     },
     {
       "id": "Watson code for java",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Watson code for java",
       "ring": "assess",
       "quadrant": "tools",
@@ -839,13 +840,13 @@
         "Mutua Madrileña"
       ],
       "position": [
-        516,
-        697
+        529,
+        696
       ]
     },
     {
       "id": "Wiz",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Wiz",
       "ring": "hold",
       "quadrant": "tools",
@@ -856,13 +857,13 @@
         "ThoughtWorks"
       ],
       "position": [
-        654,
-        688
+        732,
+        593
       ]
     },
     {
       "id": "Zed",
-      "release": "2025-05-09",
+      "release": "2025-05-19",
       "title": "Zed",
       "ring": "trial",
       "quadrant": "tools",
@@ -873,8 +874,8 @@
         "ThoughtWorks"
       ],
       "position": [
-        446,
-        651
+        481,
+        643
       ]
     }
   ]
